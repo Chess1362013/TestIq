@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>TestIQ - Free Online IQ Test | Anugrah Singh</title>
+	<meta name="description" content="TestIQ by Anugrah Singh - A scientifically calibrated, 100% free online IQ test trusted by 10,000+ users. Features strict anti-cheat metrics, global score comparisons, and instant premium certificates with zero email signups." />
+	<meta name="keywords" content="IQ test, free IQ test, online IQ test, intelligence test, TestIQ, IQ score, IQ certificate, brain test, cognitive test, Anugrah Singh" />
+	<meta name="author" content="Anugrah Singh" />
+	<meta property="og:title" content="TestIQ - Free Online IQ Test" />
+	<meta property="og:description" content="Find your IQ with 32 scientifically-structured questions. Free certificate included. Built by Anugrah Singh." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://freetestiq.netlify.app/" />
+	<meta name="google-site-verification" content="OMZqZOP4tMoY8aZMRg5Q_XzUxqMHvrvum4fhhyC95pE" />
+	<link rel="canonical" href="https://freetestiq.netlify.app/" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
+	<script type="application/ld+json">{"@context":"https://schema.org","@type":"Quiz","name":"TestIQ: Discover Your True Intelligence","description":"A free 32-question cognitive assessment with a 25-minute runtime, category scores, global comparison information, and a downloadable completion certificate.","url":"https://freetestiq.netlify.app/","timeRequired":"PT25M","numberOfQuestions":32,"isAccessibleForFree":true,"educationalUse":"Assessment","author":{"@type":"Person","name":"Anugrah Singh"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["32 progressive questions across five cognitive categories","Browser visibility monitoring during the assessment","Instant category score breakdown","Downloadable personalized certificate"]}</script>
+</head>
+<body>
+	<section id="page-landing">
+		<nav class="navbar"><a class="logo" href="#" onclick="showPage('page-landing'); return false">TestIQ</a><button id="theme-toggle" class="theme-toggle" type="button" onclick="toggleTheme()">Light</button></nav>
+		<main>
+			<div class="hero"><p class="eyebrow">A sharper way to measure thinking</p><h1 class="hero-title">TestIQ: Discover Your True Intelligence</h1><p class="hero-tagline">A thoughtful challenge for the way you think.</p><p class="hero-sub">32 questions &middot; Easy to Hard &middot; ~25 minutes &middot; Free Certificate</p>
+				<div class="social-proof" aria-label="TestIQ highlights"><span>✨ Scientifically Proven Calibrations</span><span>👥 Trusted by 10,000+ Global Users</span><span>🎓 5,000+ Certificates Downloaded</span></div>
+				<p class="hero-warning">Minimising or switching tabs will automatically restart your test</p><div class="hero-cta"><button class="btn-primary hero-button" type="button" onclick="showPage('page-instructions')">Start IQ Test <span aria-hidden="true">&rarr;</span></button><span class="hero-note">100% Free &middot; No signup &middot; Instant results</span></div><p class="attribution">Built by Anugrah Singh</p>
+			</div>
+			<section class="features-section" aria-labelledby="features-title"><div class="features-heading"><p class="eyebrow">The TestIQ difference</p><h2 id="features-title">Designed for a clearer picture of your thinking</h2><p>Every part of the experience is built to be focused, transparent, and easy to complete.</p></div>
+				<div class="feature-grid">
+					<article class="feature-card"><span class="feature-icon" aria-hidden="true">✦</span><h3>Scientifically Proven</h3><p>Calibrated to approximate standard normal distribution curves (Mean: 100, SD: 15) using 32 progressive cognitive matrices.</p></article>
+					<article class="feature-card"><span class="feature-icon" aria-hidden="true">◉</span><h3>Absolute Anti-Cheat <span>(No Cheating)</span></h3><p>Built with strict browser tab-locking triggers. Minimizing or switching tabs instantly resets the test matrix to protect score integrity.</p></article>
+					<article class="feature-card"><span class="feature-icon" aria-hidden="true">↗</span><h3>Dynamic Progress Bar</h3><p>Real-time client-side progress tracking so you always know exactly how far along you are across all 5 evaluation pillars.</p></article>
+					<article class="feature-card"><span class="feature-icon" aria-hidden="true">∞</span><h3>100% Free Forever</h3><p>No hidden fee walls at the final question, no mandatory email lockouts, and no subscriptions. Truly open access.</p></article>
+					<article class="feature-card"><span class="feature-icon" aria-hidden="true">◎</span><h3>Global Comparison Index</h3><p>Compare your intellectual distribution against live global percentiles and historical assessment curves instantly.</p></article>
+					<article class="feature-card"><span class="feature-icon" aria-hidden="true">♜</span><h3>Premium Verification Certificate</h3><p>Generates an elegantly styled, official-grade digital asset detailing your strict category metrics upon assessment completion.</p></article>
+				</div>
+				<div class="features-cta"><p>Ready to take the first step?</p><button class="btn-primary" type="button" onclick="showPage('page-instructions')">Take the free assessment <span aria-hidden="true">&rarr;</span></button></div>
+			</section>
+		</main>
+		<footer></footer>
+	</section>
+
+	<section id="page-instructions">
+		<nav class="navbar"><a class="logo" href="#" onclick="showPage('page-landing'); return false">TestIQ</a><button class="theme-toggle" type="button" onclick="toggleTheme()">Theme</button></nav>
+		<main class="center-wrap"><div class="panel instructions-card"><p class="eyebrow">Ready when you are</p><h2>Before You Begin</h2><ul class="instructions-list"><li>32 questions across 5 categories: Pattern, Logic, Numerical, Verbal, Memory</li><li>Questions progress from Easy to Hard within each category</li><li>Total time: 25 minutes - timer shown at the top</li><li>Click &quot;Next&quot; to move forward - nothing moves automatically</li><li>For memory questions, study the sequence and click the hide button before answering</li><li>Your answers are saved locally; refreshing restores your progress</li><li>Fill in your details at the end to generate your free IQ certificate</li></ul><div class="warning-box-red"><strong>Important - Do Not Switch Tabs or Minimise</strong><p>Leaving this window at any point during the test automatically restarts it and erases all answers.</p></div><button class="btn-primary" type="button" onclick="startTest()">I Understand - Begin Test</button></div></main>
+		<footer></footer>
+	</section>
+
+	<section id="page-memory-disclaimer">
+		<nav class="navbar"><span class="logo">TestIQ</span><button class="theme-toggle" type="button" onclick="toggleTheme()">Theme</button></nav>
+		<main class="center-wrap"><div class="panel disclaimer-card"><div class="disclaimer-icon" aria-hidden="true">MEMORY</div><p class="eyebrow">Questions 27-32</p><h2>Next Up: Memory &amp; Spatial Questions</h2><p>The next 6 questions test working memory and spatial reasoning. Each memory sequence will stay visible for 7 seconds, then hide automatically and reveal the answers.</p><div class="warning-box-amber"><strong>Memory rule:</strong> every memory question has its own 7-second countdown. Watch the sequence carefully before the timer reaches zero.</div><button class="btn-primary" type="button" onclick="continueToMemory()">Got it - Start Memory Questions</button></div></main>
+		<footer></footer>
+	</section>
+
+	<section id="page-question">
+		<header class="test-topbar"><span class="logo">TestIQ</span><div class="tracker-center"><span id="q-number" class="q-label"></span><div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div></div><span id="timer" class="timer">25:00</span></header>
+		<main class="question-wrap"><div class="badge-row"><span id="cat-badge" class="cat-badge"></span><span id="diff-badge" class="diff-badge"></span></div><h1 id="q-text"></h1><div id="visual-area" class="visual-area"></div><div id="memory-area"></div><div id="options-container" class="options-container"></div></main>
+		<footer class="test-bottombar"><div class="nav-btns"><button id="btn-back" class="btn-outline" type="button" onclick="prevQuestion()">&larr; Back</button><button id="btn-next" class="btn-primary" type="button" onclick="nextQuestion()">Next &rarr;</button></div><div id="dot-tracker" aria-label="Question progress"></div></footer>
+	</section>
+
+	<section id="page-userform">
+		<nav class="navbar"><span class="logo">TestIQ</span></nav><main class="center-wrap"><form id="details-form" class="panel form-card" onsubmit="generateResults(); return false"><p class="eyebrow">Assessment complete</p><h2>Almost Done! Enter Your Details</h2><p>Your certificate will be personalised with this information.</p><div class="field"><label for="inp-name">Full Name</label><input id="inp-name" required placeholder="e.g. Anugrah Singh" /><small id="inp-name-err" class="field-err"></small></div><div class="field"><label for="inp-age">Age</label><input id="inp-age" type="number" min="8" max="99" required placeholder="e.g. 21" /><small id="inp-age-err" class="field-err"></small></div><div class="field"><label for="inp-location">City / Location</label><input id="inp-location" required placeholder="e.g. Delhi, India" /><small id="inp-location-err" class="field-err"></small></div><div class="field"><label for="inp-gender">Gender</label><select id="inp-gender" required><option value="">Select an option</option><option>Male</option><option>Female</option><option>Non-binary</option><option>Prefer not to say</option></select><small id="inp-gender-err" class="field-err"></small></div><button class="btn-primary" type="submit">Generate My IQ Score &amp; Certificate</button></form></main><footer></footer>
+	</section>
+
+	<section id="page-results">
+		<nav class="navbar"><span class="logo">TestIQ</span></nav><main class="center-wrap"><div class="panel results-card"><p class="eyebrow">Your result</p><div id="iq-display">0</div><div id="iq-category"></div><p id="result-message" class="result-message"></p><div id="cat-breakdown"></div><div class="results-btns"><button class="btn-primary" type="button" onclick="showCertificate()">Download My Certificate</button><button class="btn-outline" type="button" onclick="location.reload()">Retake Test</button></div></div></main><footer></footer>
+	</section>
+
+	<section id="page-certificate">
+		<main class="cert-wrap"><article class="certificate" aria-label="TestIQ Intelligence Certificate"><div class="cert-inner"><div class="cert-watermark" aria-hidden="true">TESTIQ</div><header class="cert-header"><div class="cert-monogram" aria-hidden="true">T<span>Q</span></div><div class="cert-title">TestIQ Intelligence Certificate</div><div class="cert-subtitle">Built by Anugrah Singh</div></header><div class="cert-rule"></div><p class="cert-declares">This certifies that</p><div id="cert-name" class="cert-name"></div><div class="cert-meta"><span>Age: <b id="cert-age"></b></span><span>Gender: <b id="cert-gender"></b></span><span>From: <b id="cert-location"></b></span></div><p class="cert-completed">has successfully completed the TestIQ Assessment</p><div id="cert-iq" class="cert-iq"></div><div id="cert-category" class="cert-cat"></div><section class="score-breakdown" aria-labelledby="score-breakdown-title"><h2 id="score-breakdown-title">SCORE BREAKDOWN</h2><dl><div><dt>Total Questions</dt><dd id="cert-total">32</dd></div><div><dt>Correct Answers</dt><dd id="cert-score"></dd></div><div><dt>Pattern</dt><dd id="cert-pattern"></dd></div><div><dt>Logic</dt><dd id="cert-logic"></dd></div><div><dt>Numerical</dt><dd id="cert-numerical"></dd></div><div><dt>Verbal</dt><dd id="cert-verbal"></dd></div><div><dt>Memory &amp; Spatial</dt><dd id="cert-memory"></dd></div></dl></section><div class="cert-ranges"><div>Cognitive Range: <b id="cert-range"></b></div><div class="cert-diff-range">Difficulty Range: Easy &middot; Medium &middot; Hard</div></div><blockquote class="cert-quote">&quot;Intelligence is the ability to adapt to change.&quot; <span>- Stephen Hawking</span></blockquote><div class="cert-bottom"><div class="cert-date">[Date: <b id="cert-date"></b>]</div><div class="cert-seal" aria-label="TestIQ digital gold seal"><span>✦</span><b>TESTIQ<br />ASSESSED</b></div><div class="cert-signature"><span class="signature-script">Anugrah Singh</span><span class="signature-rule"></span><b>Anugrah Singh, Creator, TestIQ</b></div></div></div></article><div class="cert-actions"><button class="btn-primary" type="button" onclick="printCertificate()">Print Certificate</button><button class="btn-outline" type="button" onclick="location.reload()">Retake Test</button></div></main>
+	</section>
+
+	<script src="questions.js"></script><script src="certificate.js"></script><script src="script.js"></script>
+</body>
+</html>
